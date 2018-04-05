@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ang">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Netflix Spain - Watch TV Shows Online, Watch Movie Online</title>
+</head>
+
+<body>
+   <header>
+       
+       <nav>
+          <a class="logo" href="#"><img src="image/netflix-logo-3c583be9512068c1-512x512.png">
+          </a>
+          <a class="logowanie" href="https://www.netflix.com/pl/login">
+            Zaloguj się      
+          </a>
+           
+       </nav>
+       <div class="pitch">
+       <h1 class="pitch_title">See what's next.</h1>
+       <p class="pitch_subtitle">oglądaj wszędzie. Anuluj w każdej chwili.</p>
+       <button class="btn">ZACZNIJ BEZPŁATNY MIESIĄC</button>
+       </div>
+   </header>
+   
+<div id="features">
+    <nav>
+        <div class="center columns size-80 tabs is-selected">
+            <a href="#" class="column is-selected" data-id="tab1">
+               <img alt="cancel" src="image/cancel-form.svg">
+                <h2> Bez zobowiązań <br/>
+                  Możesz anulować online w każdej chwili. </h2>
+          </a>
+
+            <a href="#" class="column" data-id="tab2">
+               <img alt="oglądaj_wszędzie" src="image/responsive.svg">
+                <h2> Bez zobowiązań <br/>
+                  Możesz anulować online w każdej chwili. </h2>
+          </a>
+
+            <a href="#" class="column" data-id="tab3">
+               <img alt="wybierz" src="image/price-tag.svg">
+                <h2> Bez zobowiązań <br/>
+                  Możesz anulować online w każdej chwili. </h2>
+          </a>
+        </div>
+        
+
+        <article>
+            <!-- class="tabs-container"> -->
+            <section class="is-selected" data-id="tab1">
+                 Sekcja 1 
+                 </section>
+            <section data-id="tab2">
+                 Sekcja 2
+                 </section>
+            <section data-id="tab3">
+                 Sekcja 3 
+            </section>
+        </article>
+    </nav>
+
+</div>
+
+
+<script src="app.js"></script>
+//$(function() {
+//   $('.column').on('click', function() {
+//     
+//     var panelToShow = $(this).attr('rel');
+//    
+//     
+//       $('#features .tab-content.is-selected').slideUp(300), function() {
+//         $('#'+panelToShow).slideDown(300), function() {
+//             $(this).addClass("is-selected");
+//            });
+//       });
+//     });
+//    
+//});
+    
+    
+
+</body>
+</html>
