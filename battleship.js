@@ -1,63 +1,3 @@
-//var randomLoc = Math.floor(Math.random() * 5);
-//var location1 = randomLoc; // lokalizacja okretu 1
-//var location2 = location1 + 1; // lokalizacja okretu 2
-//var location3 = location1 + 2; // lokalizacja okretu 3
-//
-//var guess;          // komorka wskazana przez uzytkownika
-//var hits = 0;       // liczba trafień
-//var guesses = 0;    // liczba prób
-//var liczby = [];
-//
-//var isSunk = false; // czy okret został zatopiony?
-//
-//
-//while (isSunk == false) {
-//    
-//    guess = prompt("Gotów, cel,pal! (podaj liczbę z zakresu od 0-6:");
-//    
-//    if ( guess < 0 || guess > 6) {
-//     alert("proszę podać prawidłowy numer komórki!");   
-//     
-//        
-//    } else {
-//     guesses = guesses + 1;   
-//     liczby.push(guess);   
-//    alert(liczby[0]);
-//        if (guess == location1 || guess == location2 || guess == location3) {
-//            
-//            alert("TRAFIONY!");
-//            hits = hits + 1;
-//         
-//           
-//        
-//            if (hits == 3){
-//            isSunk = true;
-//            alert("TY JEBAŃCU! Zatopiłeś mój okręt");
-//        } 
-//    } else {
-//        alert("PUDŁO!");
-//        
-//    }
-// 
-//        
-//    }
-//
-// }  
-//    
-//
-//
-//var stats = "Potrzebowałeś " + guesses + " prób, by zatopić mój okręt, czyli Twoja efektywność wynosi: " + 3/guesses + ".";
-//alert(stats);
-
-
-
-
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>tu zaawansowana aplikacja webowa :) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-
-
-
 
 //  >>>>>>>>>>>>>>> IMPLEMENTACJA OBIEKTU MODELU <<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -320,27 +260,6 @@ function init() {
 
 
 
-
-// testy 
-//console.log(parseGuess("A0"));
-//console.log(parseGuess("B6"));
-//console.log(parseGuess("G3"));
-//console.log(parseGuess("H0"));
-//console.log(parseGuess("A7"));
-
-//controller.processGuess("A0");
-//
-//controller.processGuess("A6");
-//controller.processGuess("B6");
-//controller.processGuess("C6");
-//
-//controller.processGuess("C4");
-//controller.processGuess("D4");
-//controller.processGuess("E4");
-//
-//controller.processGuess("B0");
-//controller.processGuess("B1");
-//controller.processGuess("B2");
 
 
 
