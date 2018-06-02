@@ -4,7 +4,7 @@
 var model = {           // model jest obiektem
     boardSize: 7,       // wielkosc siatki tworzacej plansze gry
     numShips: 3,        // liczba okretow bioracych udzial w grze
-    shipLenght: 3,      // liczba komorek planszy zajmowanych przez jeden okret
+    shipLength: 3,      // liczba komorek planszy zajmowanych przez jeden okret
     shipsSunk: 0,       
     
     /* WŁAŚCIWOŚĆ SHIPS jest tablicą obiektów ship, z ktorych kazdy przechowywuje informacje o położeniu oraz trafieniach danego okrętu. (zmieniliśmy ships ze zmiennej, której używaliśmy wcześniej, na właściwość obiektu model) */
@@ -53,7 +53,7 @@ var model = {           // model jest obiektem
     /* >> METODA isSunk <<  
      jej zdaniam będzie sprawdzenie okretu i zwrocenie wartosci true, jesli został zatopiony, oraz wartosci false, jesli jeszcze jakos unosi się na wodzie. Metoda pobiera obiekt okretu i przeglada kazde z zajomowanych przez niego pól sprawdzajac czy zostało trafione czy nie. */   
     isSunk: function(ship) {                          
-        for (var i = 0; i < this.shipLenght; i++) {
+        for (var i = 0; i < this.shipLength; i++) {
             if (ship.hits[i] !== "hit") {           // jesli metoda znajdzie pole, ktore jeszcze nie zostalo trafione = wciaz plywa
                 return false;                       // dlatego zwraca wartosc false
         }    
